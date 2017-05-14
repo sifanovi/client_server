@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    
+    
+   
+    
+    
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@drawable/button_design"
+        android:text="Select Product category"/>
+      
+    <Spinner android:id="@+id/spinFood"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:background="@drawable/button_design"
+        android:layout_height="50dp"/>
+    
+    
+    <Button 
+       android:id="@+id/Select" 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Select"
+       android:background="@drawable/button_design"
+       android:gravity="center"
+        
+        
+        
+        />
+
+</LinearLayout>
